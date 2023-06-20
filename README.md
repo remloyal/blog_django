@@ -11,6 +11,9 @@ python manage.py runserver 0.0.0.0:8000
 python manage.py startapp app
 
 
+迁移数据库
+python manage.py makemigrations
+
 初始化Django数据库
 python manage.py migrate
 
